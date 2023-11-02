@@ -1,7 +1,7 @@
 # Author: Joseph Serra
 # GitHub username: jserra99
-# Date: 10/29/2023
-# Description: Project-5c; Is Subsequence
+# Date: 11/2/2023
+# Description: Project-5c; Is Subsequence Tester
 
 import unittest
 from is_subsequence import is_subsequence

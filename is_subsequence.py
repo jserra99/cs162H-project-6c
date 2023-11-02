@@ -1,6 +1,6 @@
 # Author: Joseph Serra
 # GitHub username: jserra99
-# Date: 10/29/2023
+# Date: 11/2/2023
 # Description: Project-5c; Is Subsequence
 
 def is_subsequence(first_string: str, second_string: str):
