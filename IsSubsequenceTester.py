@@ -12,8 +12,11 @@ class IsSubsequenceTester(unittest.TestCase):
     def test_is_subsequence(self):
         """ Test is_subsequence() """
         str_one = "nana"
-        str_two = "Banana"
+        str_two = "banana"
         self.assertTrue(is_subsequence(str_one, str_two))
         str_one = "elo"
-        str_two = "Hello"
+        str_two = "hello"
+        self.assertTrue(is_subsequence(str_one, str_two))
+        str_one = "hol"
+        str_two = "hello"
         self.assertFalse(is_subsequence(str_one, str_two))
